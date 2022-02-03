@@ -1,0 +1,45 @@
+.buttonwrapper {
+    list-style: none;
+    padding: 5px;
+    display: inline-flex;
+    width: auto;
+    border-radius: 50px;
+    background-color: rgba(110, 108, 108, 0.349);
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.buttonwrapper li {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.buttonwrapper li:first-child {
+    margin-left: 0;
+}
+
+.date-indicator {
+    font-size: 20px;
+    font-family: Nunito Sans Light;
+}
+
+.buttonwrapper label {
+    display: block;
+    color: #FFFFFF;
+    font-family: Nunito Sans Light;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttonwrapper li.active label {
+    background-color: #182142;
+    border-radius: 50px;
+}
